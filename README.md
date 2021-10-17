@@ -2,7 +2,7 @@
 Build a console application for a Property Management Business where you can expose features
 like register a user, list a property and search properties based on your requirements etc.
 
-Feature Requirement:
+Functional Requirement:
 1. Register a User: One time registration of the user.
 2. List a Property: Users can list the properties they want to sell.
 3. View Listed Properties: Users can view properties listed by them.
@@ -20,7 +20,7 @@ Feature Requirement:
    g. Users can choose any set of parameters above for search.
 6. Mark Sold: Users can mark a property as SOLD which was listed by them.
 
-Bonus Requirements:
+Non-Functional Requirements:
 1. Accept size in multiple units (sq. meter, sq.ft & sq.yard). A seller and buyer can provide the
    size of different units while listing and searching properties.
 2. Accept a number of locations as nearby locations for a property listing and search should list
