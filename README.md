@@ -2,7 +2,7 @@
 Build a console application for a Property Management Business where you can expose features
 like register a user, list a property and search properties based on your requirements etc.
 
-Functional Requirement:
+Functional Requirements:
 1. Register a User: One time registration of the user.
 2. List a Property: Users can list the properties they want to sell.
 3. View Listed Properties: Users can view properties listed by them.
