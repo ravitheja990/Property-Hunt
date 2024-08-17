@@ -1,30 +1,56 @@
-# Property Hunt:
-Build a console application for a Property Management Business where you can expose features
-like register a user, list a property and search properties based on your requirements etc.
+Property Hunt
+Description
 
-Functional Requirements:
-1. Register a User: One time registration of the user.
-2. List a Property: Users can list the properties they want to sell.
-3. View Listed Properties: Users can view properties listed by them.
-4. Shortlist a Property: Users can shortlist properties they are interested in.
-5. View Shortlisted Properties: Users can list properties they have shortlisted (including sold
-   but the status should be "SOLD").
-6. Search Properties: Users can search for listed properties(only available properties should
-   appear in results). They can use a combination of:
-   a. Location (case insensitive exact match would suffice to search).
-   b. Price Range.
-   c. Listing Type: Sell/Rent.
-   d. Size Range.
-   e. The number of rooms: 1BHK, 2BHK, 3BHK.
-   f. Sort by: It could be price or size(only ascending order is required).
-   g. Users can choose any set of parameters above for search.
-6. Mark Sold: Users can mark a property as SOLD which was listed by them.
+Property Hunt is a web application designed to help users search for and manage property listings. The application allows users to browse properties, filter based on specific criteria, and manage their favorite listings, providing a comprehensive solution for property hunting.
+Features
 
-Non-Functional Requirements:
-1. Accept size in multiple units (sq. meter, sq.ft & sq.yard). A seller and buyer can provide the
-   size of different units while listing and searching properties.
-2. Accept a number of locations as nearby locations for a property listing and search should list
-   properties with search locations in nearby places also(here sort by location can also be
-   provided and such properties which are a match in nearby locations, should appear last).
-3. Accept price in multiple forms (40000, 40k, 2Cr, 60L, etc.) during the listing for searching.
-4. For location and number of rooms, accept "," separated values during the search.
+    Property Search: Search for properties by location, price, and other filters.
+    Favorites Management: Save and manage favorite properties.
+    User Authentication: Secure login and registration.
+    Responsive Design: Optimized for both desktop and mobile use.
+
+Technologies Used
+
+    Frontend: JavaScript, React
+    Backend: Node.js, Express
+    Database: MongoDB
+    Other Tools: Git, Redux
+
+Installation
+
+    Clone the repository:
+
+    bash
+
+git clone https://github.com/ravitheja990/Property-Hunt.git
+
+Navigate to the project directory:
+
+bash
+
+cd Property-Hunt
+
+Install dependencies:
+
+bash
+
+npm install
+
+Run the application:
+
+bash
+
+    npm start
+
+Usage
+
+After running the application, access it via http://localhost:3000. Use the search feature to find properties and manage your favorites.
+Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request with your enhancements or bug fixes.
+License
+
+This project is licensed under the MIT License.
+Contact
+
+For any questions or suggestions, please contact Ravi Theja.
